@@ -11,9 +11,9 @@ name: Veracode Static Analysis Pipeline Scan
 
 on:
   push:
-    branches: [ 2.8.x ]
+    branches: [ main, master ]
   pull_request:
-    branches: [ 2.8.x ]
+    branches: [ main, master ]
 
 jobs:
   build:
